@@ -56,3 +56,6 @@ python -m unittest tests/test_security.py -v
 
 ## Fingerprint Pinning
 The client computes `SHA256` over the server certificate in the TLS handshake and matches it to the **expected fingerprint** supplied by you via `--pin`. This is a practical defense against MITM for a self-signed server.
+
+### GUI Note
+This branch adds a GUI usage note for demonstration.
