@@ -1,0 +1,22 @@
+# Python / venv / caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local artifacts & logs
+artifacts/logs/
+artifacts/*.db
+artifacts/securechat.db
+
+# Secrets / certs / keys (keep private keys out of git)
+certs/server.key
+
+# IDE settings
+.vscode/
+.idea/
